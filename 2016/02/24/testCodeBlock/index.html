@@ -7,7 +7,7 @@
     
 
     <title>
-      Read. Write. Sketch. Research. 
+       | Read. Write. Sketch. Research. 
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,18 +15,17 @@
       <meta name="author" content="Hong Yu">
     
     
-      <meta name="description" content="Just a simple blog">
-    
 
-    <meta name="description" content="Just a simple blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Read. Write. Sketch. Research.">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="12def foo:    return">
+<meta property="og:type" content="article">
+<meta property="og:title" content=" | Read. Write. Sketch. Research.">
+<meta property="og:url" content="http://yoursite.com/2016/02/24/testCodeBlock/index.html">
 <meta property="og:site_name" content="Read. Write. Sketch. Research.">
-<meta property="og:description" content="Just a simple blog">
+<meta property="og:description" content="12def foo:    return">
+<meta property="og:updated_time" content="2016-02-24T08:54:50.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Read. Write. Sketch. Research.">
-<meta name="twitter:description" content="Just a simple blog">
+<meta name="twitter:title" content=" | Read. Write. Sketch. Research.">
+<meta name="twitter:description" content="12def foo:    return">
     
     
     
@@ -46,8 +45,8 @@
     </span>
 
     
- 
-<header class="panel-cover">
+
+<header class="panel-cover panel-cover--collapsed">
 
 
   <div class="panel-main">
@@ -154,82 +153,39 @@ classes that you can use:
         <div class="content-wrapper__inner entry">
             
 
+<article class="post-container post-container--single">
 
-   <!-- do nothing -->
-
-
-<div class="main-post-list">
-    <ol class="post-list">
+  <header class="post-header">
     
-    
-    <li>
+    <h1 class="post-title"></h1>
 
-      <h2 class="post-list__post-title post-title">
-        <a href="/2016/02/24/testCodeBlock/" title="link to "></a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2016-02-24" class="post-list__meta--date date">2016-02-24</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2016/02/23/testPost/" title="link to Test creating a post">Test creating a post</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2016-02-23" class="post-list__meta--date date">2016-02-23</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2016/02/23/hello-world/" title="link to Build a blog with Hexo">Build a blog with Hexo</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2016-02-23" class="post-list__meta--date date">2016-02-23</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
     
 
-    <span class="pagination__page-number"> 1 / 1</span>
+    <div class="post-meta">
+      <time datetime="2016-02-24" class="post-meta__date date">2016-02-24</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
     
     
-</nav>
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>:</span></span><br><span class="line">    <span class="keyword">return</span></span><br></pre></td></tr></table></figure>
+  </section>
+
+  
+  
+</article>
 
 
-</div>
             <footer class="footer">
 
     <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
@@ -257,6 +213,18 @@ classes that you can use:
 
 
     
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
     
     
     <!--kill ie6 -->
